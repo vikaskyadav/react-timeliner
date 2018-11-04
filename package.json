@@ -1,0 +1,39 @@
+{
+  "name": "react-timeline-scribble",
+  "version": "1.0.14",
+  "description": "React Timeline component",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "prepare": "yarn build",
+    "start": "react-scripts start"
+  },
+  "author": "Igor Kamyshev",
+  "keywords": [
+    "timeline"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheNovel/react-timeline-scribble"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^3.3.2",
+    "@material-ui/icons": "^3.0.1",
+    "emotion": "^9.2.6",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
