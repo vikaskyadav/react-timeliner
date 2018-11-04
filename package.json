@@ -8,21 +8,23 @@
     "prepare": "yarn build",
     "start": "react-scripts start"
   },
-  "author": "Igor Kamyshev",
+  "author": "Vikas Yadav",
   "keywords": [
     "timeline"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheNovel/react-timeline-scribble"
+    "url": "https://github.com/vikaskyadav/react-timeliner"
   },
   "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^3.3.2",
     "@material-ui/icons": "^3.0.1",
+    "csvtojson": "^2.0.8",
     "emotion": "^9.2.6",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-grid-system": "^4.3.1",
     "react-scripts": "^2.1.1"
   },
   "devDependencies": {
